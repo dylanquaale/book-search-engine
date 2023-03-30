@@ -21,13 +21,13 @@ const resolvers = {
       const user = await User.findOne({ email });
       // check if user exists with email and credentials
       if (!user) {
-        throw new AuthenticationError("Incorrect credentials");
+        throw new AuthenticationError("You Wish");
       }
       const correctPassword = await user.isCorrectPassword(password);
 
       // check password
       if (!correctPassword) {
-        throw new AuthenticationError("Incorrect credentials");
+        throw new AuthenticationError("You Wish");
       }
 
       const token = signToken(user);
