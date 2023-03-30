@@ -32,8 +32,8 @@ const LoginForm = () => {
         variables: {...userFormData}
       })
 
-    
-      Auth.login(data.loginUser.token);
+    console.log(loginUser)
+      Auth.login(data.login.token);
     } catch (err) {
       console.error(err);
     }
@@ -48,7 +48,7 @@ const LoginForm = () => {
   return (
     <>
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
-        <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
+        <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger' {...error}>
           Something went wrong with your login credentials!
         </Alert>
         <Form.Group className='mb-3'>
