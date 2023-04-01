@@ -12,7 +12,7 @@ const resolvers = {
         );
         return userData;
       }
-      throw new AuthenticationError("Not logged in");
+      throw new AuthenticationError("You Need Too Login Wisher");
     },
   },
 
@@ -48,7 +48,7 @@ const resolvers = {
         );
         return updatedUser;
       }
-      throw new AuthenticationError("You need to be logged in!");
+      throw new AuthenticationError("You Wish");
     },
     removeBook: async (parent, { bookId }, context) => {
       if (context.user) {
@@ -59,7 +59,7 @@ const resolvers = {
         );
         return updatedUser;
       }
-      throw new AuthenticationError("You need to be logged in!");
+      throw new AuthenticationError("You Wish!");
     },
   },
 };
