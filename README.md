@@ -25,7 +25,7 @@ ask me for more if you dont know
 ### Usage
 users are able to create themselves and leaves thoughts and reactions to one another post you could say
 ### Credits
-credits are to my tutor Dennis Itua he helped me create the date method with the getter i was confused about the rest was done by me. asked bcs for some help on small things along the way but was very close on most questions that I had
+
 ### Description
 users can create thoughts and add reactions to one another 
 ### Contribution
