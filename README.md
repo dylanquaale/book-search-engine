@@ -26,7 +26,7 @@ ask me for more if you dont know
 users are able to create themselves and leaves thoughts and reactions to one another post you could say
 ### Credits
 you need to work
-
+heroku work
 ### Description
 users can create thoughts and add reactions to one another 
 ### Contribution
