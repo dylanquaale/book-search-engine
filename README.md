@@ -39,7 +39,7 @@ Class Activities 21,24,17,18,
 mini project 
 
 ### Description
-users are able to search and save their favorite books! This app allows users to search and save favorite books to the db. the db we are using is mongoDB. this app is deployed to heroku for others to be able to interact via the web. when searching for a book users will be provided with a short description about the book. if users wish to delete a book previously saved you can do that. deploy
+users are able to search and save their favorite books! This app allows users to search and save favorite books to the db. the db we are using is mongoDB. this app is deployed to heroku for others to be able to interact via the web. when searching for a book users will be provided with a short description about the book. if users wish to delete a book previously saved you can do that. deploy heroku
 
 ### Contribution
 go to my github unzip the file, download the file locally. begin working.
