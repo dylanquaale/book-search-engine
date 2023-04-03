@@ -43,6 +43,8 @@ mini project
 ### Description
 users are able to search and save their favorite books! This app allows users to search and save favorite books to the db. the db we are using is mongoDB. this app is deployed to heroku for others to be able to interact via the web. when searching for a book users will be provided with a short description about the book. if users wish to delete a book previously saved you can do that.
 
+![Screenshot 2023-04-03 at 11 04 47 AM](https://user-images.githubusercontent.com/93456860/229565618-d9072032-9f95-4b53-b5b4-e8a0292b4245.png)
+
 ### Contribution
 go to my github unzip the file, download the file locally. begin working.
 feel free to create a new branch if you think you can make this better and go ahead and push i will look it over and decline or accept.
